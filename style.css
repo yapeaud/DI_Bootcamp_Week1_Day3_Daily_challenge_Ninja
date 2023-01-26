@@ -1,0 +1,59 @@
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+div {
+  padding: 10px;
+  margin: 1px;
+}
+.d1 {
+  background-color: rgb(231, 224, 224);
+}
+.d2 {
+  background-color: rgb(143, 141, 141);
+}
+.d3 {
+  background-color: rgb(77, 76, 76);
+}
+.d4 {
+  background-color: rgb(14, 13, 13);
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(16,50px);
+}
+
+.d21 {
+    background-color: rgb(255, 255, 255);
+  }
+  .d22,
+  .d23{
+background-color: rgb(231, 121, 121);
+  }
+  .d24{
+    background-color: brown;
+  }
+
+  .container2{
+    display: grid;
+    grid-template-columns: repeat(16,50px);
+    grid-template-rows: repeat(9,50px);
+  }
+
+  .container3{
+    display: grid;
+    grid-template-columns: repeat(16,50px);
+    grid-template-rows: repeat(16,50px);
+  }
+
+  .d31{
+    background-color: rgb(255, 166, 0);
+  }
+
+  .d32{
+    background-color: rgba(236, 214, 15, 0.521);
+  }
+
+  .d33{
+    background-color: rgb(61, 4, 4)
+  }
